@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<style>
+     .widthclass{
+        width: 1260px;
+        height: 100px;
+        margin: 35px;
+        padding: 1px   
+    }
+    .ulmenu1 {
+            list-style-type: none;
+            display: flex;
+            padding-top: 22px;
+        }
+        
+        .ulmenu p {
+            flex: auto
+        }
+        
+        .footmenu {
+            list-style-type: none;
+            display: flex;
+        }
+        
+        .footmenu p {
+            flex: auto
+        }
+        
+        body {
+            margin-top: 20px;
+        }
+        
+        .menucol {
+            background: url('wood1.jpg');
+            color: white;
+            padding: 15px;
+        }
+        
+        .worldcol {
+            color: chocolate;
+        }
+        
+        .treecol {
+            color: forestgreen;
+        }
+        
+        .donate {
+            background-color: forestgreen;
+            border: 2px solid white;
+            border-radius: 5px;
+            padding: 10px;
+            margin: 193px;
+        }
+        
+        figcaption {
+            background-color: orange;
+            color: white;
+            padding: 10px;
+            text-align: center;
+            font-weight: 600;
+        }
+        
+        .sidemenu {
+            background-color: #8080802e;
+            color: #2221214a;
+            margin-bottom: 5px!important;
+        }
+        
+        .sidemenu ul {
+            list-style-type: none!important;
+        }
+        
+        .sidemenu li {
+            color: goldenrod;
+        }
+        
+        .maincontent {
+            margin-top: 20px;
+        }
+        
+        .imgbreak {
+            padding-bottom: 10px;
+        }
+        
+        .para {
+            font-size: 12px;
+        }
+        
+        .para1{
+            font-size: 12px;
+            color: #69696959;
+            
+        }
+
+</style>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+
+            
+            <div class=" row widthclass bg-white"> 
+            <div class="col-md-6 text-center  bg-warning w-100">
+                <div> <h1>World Tree Preservation </h1>
+                    <p>save trees. plant trees. build a greener future.</p>
+              </div>
+              
+            </div>
+            <div class="col-md-6 bg-warning">
+                <div class="col-md-3 bg-success">Donate now</div>
+                <div class="col-md-12 text-white">
+                    Home
+                    About
+                    Our Program
+                    Gallery
+                    Contact
+                    Blog
+                
+                </div>
+                   
+            </div>
+        </div>
+
+        
+        <div class="maincontent">
+            <div class="row">
+                <div class="col-md-1"></div>
+                <div class="col-md-3">
+                    <h4>Our Programs</h4>
+
+
+                    <figure>
+                        <img src="https://tse3.mm.bing.net/th?id=OIP.FmwKwxv4gt1iGusbmWpnewHaFA&pid=Api&P=0&w=222&h=151" alt="Plant a tree" width="100%">
+                        <div class="col-md-12 bg-danger text-warning w-100 text-center">Tree Planting</div>
+                    </figure>
+                    <figure>
+                        <img src="https://tse2.mm.bing.net/th?id=OIP.E5eva3nXVX1DQyEbF80yrAHaGN&pid=Api&P=0&w=179&h=151" alt="Paper Recycling" width="100%">
+                        <div class="col-md-12 bg-danger text-white w-100 text-center">Paper Recycling</div>
+                    </figure>
+                    <figure>
+                        <img src="https://tse4.mm.bing.net/th?id=OIP.RRPIWk3OHSpH-medb8dXigAAAA&pid=Api&P=0&w=190&h=157" alt="Earth" width="100%">
+                        <div class="col-md-12 bg-danger text-white w-100 text-center">Earth Apreciation</div>
+       
+
+                    </figure>
+                </div>
+                <div class="col-md-4">
+                    <br>
+                    <h4>TREE PLANTING</h4>
+                    <img src="./boostrap layout_files/plants.jpg" width="100%">
+                    <p>
+                        This website template has been designed by Free Website Templates for you, for free. You can replace all this text with your own text.
+                    </p>
+                    <p>
+                        You can remove any link to our website from this website template, you're free to use this website template without linking back to us.
+                    </p>
+                    <p>
+                        If you're having problems editing this website template, then don't hesitate to ask for help on the Forums .
+                    </p>
+                </div>
+                <div class="col-md-3">
+                    <div class="sidemenu">
+                        <ul>
+                            <p>
+                                CATEGORIES
+                            </p>
+                            <li>
+                                Category Title One
+                            </li>
+                            <li>
+                                Category Title Two
+                            </li>
+                            <li>
+                                Category Title Three
+                            </li>
+                        </ul>
+                        <br>
+                    </div>
+                    <div class="sidemenu">
+                        <ul>
+                            <p>
+                                RECENT BLOG POSTS
+                            </p>
+                            <li>
+                                Blog Post Title One
+                            </li>
+                            <li>
+                                Blog Post Title Two
+                            </li>
+                            <li>
+                                Blog Post Title Three
+                            </li>
+                        </ul>
+                        <br>
+                    </div>
+                    <div class="sidemenu">
+                        <ul>
+                            <p>
+                                Archives
+                            </p>
+                            <li>
+                                March 2023
+                            </li>
+                            <li>
+                                Feburary 2023
+                            </li>
+                            <li>
+                                Januaury 2023
+                            </li>
+                            <li>
+                                December 2023
+                            </li>
+                            <li>November 2023</li>
+                        </ul>
+                        <br>
+                    </div>
+                    <div class="sidemenu">
+                        <p class="text-center"><b>From the gallery</b></p>
+                        <div class="row">
+                            <div class="col-md-1"></div>
+                            <div class="col-md-5">
+                                <div class="row">
+                                    <div class="col-md-12 imgbreak">
+                                        <img src=" https://tse4.mm.bing.net/th?id=OIP.IsmVJB7Tb9xB_z4o_cEyJQHaD4&pid=Api&P=0&w=290&h=153" width="100%" height="80">
+
+                                    </div>
+                                    <div class="col-md-12 imgbreak">
+                                        <img src="https://tse2.mm.bing.net/th?id=OIP.XZ_tdrOOOW9gZ--fEOmJFgHaE8&pid=Api&P=0&w=232&h=155" width="100%" height="80">
+
+                                    </div>
+                                    <div class="col-md-12">
+                                        <img src="https://tse4.mm.bing.net/th?id=OIP.h7O0LKZcmkq4mNDBABllCgHaE8&pid=Api&P=0&w=271&h=182" width="100%" height="80">
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="col-md-5">
+                                <div class="row">
+                                    <div class="col-md-12 imgbreak">
+                                        <img src="https://tse4.mm.bing.net/th?id=OIP.OsRiKpcDutKqsyHE_xKf0gHaEk&pid=Api&P=0&w=269&h=167" width="100%" height="80">
+                                    </div>
+                                    <div class="col-md-12 imgbreak">
+                                        <img src="https://tse1.mm.bing.net/th?id=OIP.e0qEYB-gvk1Xv6f8PwUKtQHaEt&pid=Api&P=0&w=251&h=160" width="100%" height="80">
+
+                                    </div>
+                                    <div class="col-md-12">
+                                        <img src="https://tse1.mm.bing.net/th?id=OIP.WYBYiYulWD6LujSBqtgZ1QHaEK&pid=Api&P=0&w=284&h=160" width="100%" height="80">
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-md-1"></div>
+            </div>
+        </div>
+        <div>
+            
+        </div>
+        <div class="card-footer">
+            <div class="row" style="color:#69696959">
+                <div class="col-md-1"></div>
+                <div class="col-md-3">
+                    <p>24 HOUR CUSTOMER SERVICE</p>
+                    <p class="footfont"><i class="fa fa-phone" aria-hidden="true"></i> &nbsp; 512-943-1069
+                        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;512-942-1068</p>
+                    <br>
+                    <p class="para"><i class="fa fa-envelope" aria-hidden="true"></i> &nbsp; info@WTPcom </p>
+                    <br>
+                    <p class="para">
+                        <i class="fa fa-home" aria-hidden="true"></i> &nbsp;1341 Oakmound Drive
+                        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Chicago, IL 60609
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <p>RECENT TWEETS</p>
+                    <p class="para"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris fringilla elementum magna. </p>
+                    <p style="color: red;">- 1 day ago</p>
+                    <p class="para1">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. </p>
+                    <p style="color: red;">- 2 day ago</p>
+                </div>
+                <div class="col-md-3">
+                    <p>Get in touch with us </p>
+                    <p class="para"><i class="fab fa-facebook-square" style="color: green;"></i> &nbsp;facebook </p>
+                    <p class="para"><i class="fab fa-twitter-square" style="color: green;"></i> &nbsp; Twitter</p>
+                    <p class="para"><i class="fab fa-google-plus-square" style="color: green;"></i> &nbsp;Google+ </p>
+                    <p>NEWSLETTER SIGNUP</p>
+                    <input type="text" placeholder="Enter mail adderss">
+                </div>
+                <div class="col-md-1"></div>
+            </div>
+        </div>
+        <div class="card-footer">
+            <div class="row footfont1">
+                <div class="col-md-6">
+                    <ul class="footmenu">
+                        <p>Home</p>
+                        <p>About</p>
+                        <p>Our Program</p>
+                        <p>Gallery</p>
+                        <p>Contact</p>
+                        <p>Blog</p>
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <p style="float: right;">@copy 2023 World Tree Preservation. All Rights Reserved</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+</html>
